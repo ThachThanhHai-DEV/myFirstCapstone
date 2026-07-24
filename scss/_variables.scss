@@ -33,7 +33,7 @@ $radius-md : 6px;
 $light-theme: (
   'bg-app': $bg-light,
   'text-primary': $color-primary-light,
-  'text-title': $color-title-light,
+  'text-title': $color-title-dark,
   'color-border': $bg-border-light,
 );
 
@@ -41,6 +41,6 @@ $light-theme: (
 $dark-theme: (
   'bg-app': $bg-dark,
   'text-primary': $color-primary-dark,
-  'text-title': $color-title-dark,
+  'text-title': $color-title-light,
   'color-border': $bg-border-dark,
 );

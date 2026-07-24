@@ -1,0 +1,96 @@
+.navbar-header {
+    padding-top: 15px;
+    .container-navbar {
+        @include flex(space-between, center);
+
+        .navbar-brand {
+            @include flex(flex-start, center);
+            gap: 5px;
+            a {
+                text-decoration: none;
+                font-family: "Nunito", sans-serif;
+                font-weight: $fw-700;
+                font-size: $fs-title;
+                color: var(--text-title);
+            }
+        }
+        .navbar {
+            
+            .nav {
+                @include flex(flex-start, center);
+                list-style: none;
+                gap: 20px;
+                margin-right: 50px;
+                .nav__item {
+                    position: relative;
+                }
+
+                .nav__item--dropdown {
+                    &:hover {
+                        .dropdown {
+                            opacity: 1;
+                            visibility: visible;
+                            transform: translateY(0);
+                        }
+                    }
+                }
+
+                &__link {
+                    text-decoration: none;
+                    color: var(--text-title);
+                    font-family: "Jost", sans-serif;
+                    font-weight: 600;
+                    font-size: 18px;
+                    line-height: 28px;
+                }
+                .dropdown {
+                    position: absolute;
+                    top: 40px;
+                    left: 0;
+                    min-width: 200px;
+                    background-color: var(--bg-app);
+                    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.057), -3px -3px 5px rgba(0, 0, 0, 0.057);
+                    list-style: none;
+                    z-index: 100;
+                    opacity: 0;
+                    visibility: hidden;
+                    transform: translateY(10px);
+                    transition: all 0.3s ease;
+                    padding: 0 ;
+
+                    .dropdown__item {
+                        border : 1px solid #8888881e;
+                       padding: 10px 8px;
+                    }
+                }
+
+                .dropdown__link {
+                    text-decoration: none;
+                    color: var(--text-title);
+                    font-family: "Jost", sans-serif;
+                    font-weight: 600;
+                    font-size: 16px;
+                    line-height: 28px;
+
+                }
+
+            }
+        
+
+        .navbar-btn{
+            .btn-primary{
+                background-color: #1CBBB4;
+            }
+            .btn-primary::after{
+                background-color: #73BE48 ;
+            }
+
+            .navbar-toggler{
+                display: none;
+            }
+        }
+
+
+    }
+    }
+}
