@@ -176,14 +176,14 @@ body {
 @media (min-width: 1024px) {
   .info__head .info__content {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     flex-direction: row;
   }
 }
 .info__head .info__content {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   padding: 10px 0;
   flex-wrap: nowrap;

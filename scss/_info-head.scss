@@ -14,13 +14,13 @@
 
     @include breakpoint-up(lg) {
         .info__content {
-            @include flex(space-around, center);
+            @include flex(space-between, center);
             flex-direction: row;
         }
     }
 
     .info__content {
-        @include flex(space-around, center);
+        @include flex(space-between, center);
         padding: 10px 0;
         flex-wrap: nowrap;
 
