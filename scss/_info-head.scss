@@ -1,0 +1,55 @@
+.info__head {
+    display: none;
+    background-color: #ED145B;
+
+    @include breakpoint-up(sm) {
+        display: block;
+        .info__content {
+            @include flex(center, center);
+            row-gap: 20px;
+            flex-direction: column;
+            width: 100%;
+        }
+    }
+
+    @include breakpoint-up(lg) {
+        .info__content {
+            @include flex(space-around, center);
+            flex-direction: row;
+        }
+    }
+
+    .info__content {
+        @include flex(space-around, center);
+        padding: 10px 0;
+        flex-wrap: nowrap;
+
+        .info__title {
+            white-space: nowrap;
+            span {
+                display: inline-block;
+                margin-right: 20px;
+                color: $color-title-light;
+            }
+        }
+
+        .info__boxs {
+            @include flex(space-between, center);
+            span.info__box {
+                display: block;
+                width: 25px;
+                height: 25px;
+                border: 1px solid $color-title-light ;
+                border-radius: $radius-md;
+                margin-right: 15px;
+                transition: all 0.2s ease-in;
+
+                &:hover {
+                    background-color: #EEC359;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+}
+
