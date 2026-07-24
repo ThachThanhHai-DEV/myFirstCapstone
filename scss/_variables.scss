@@ -1,0 +1,46 @@
+//--- Font size ---
+$fs-body: 1rem;
+$fs-title: 2rem;
+$fs-sub: 1.1875rem;
+
+//---Font weight---
+$fw-700 : 700;
+$fw-400 : 400;
+
+//--Line hieght 
+$lh-body : 26px;
+$lh-title :42px;
+
+// --- Mã màu text  ---
+$color-primary-light: rgb(104, 104, 104);
+$color-primary-dark: #9F978C;
+$color-title-light: #fff;
+$color-title-dark: #000;
+//Break point
+$bp-sm: 640px;
+$bp-lg: 1024px;
+$bp-xl: 1440px;
+
+//--background color--
+$bg-light: #fff;
+$bg-dark: #000;
+$bg-border-light: #FFF0E5;
+$bg-border-dark: #431C00;
+
+//Boder radius
+$radius-md : 6px;
+// --- Map Light Theme ---
+$light-theme: (
+  'bg-app': $bg-light,
+  'text-primary': $color-primary-light,
+  'text-title': $color-title-light,
+  'color-border': $bg-border-light,
+);
+
+// --- Map Dark Theme ---
+$dark-theme: (
+  'bg-app': $bg-dark,
+  'text-primary': $color-primary-dark,
+  'text-title': $color-title-dark,
+  'color-border': $bg-border-dark,
+);

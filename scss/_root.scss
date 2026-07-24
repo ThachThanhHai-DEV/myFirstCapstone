@@ -1,0 +1,15 @@
+@import 'variables';
+
+// Mặc định cho Light Theme (:root)
+:root {
+  @each $name, $value in $light-theme {
+    --#{$name}: #{$value};
+  }
+}
+
+// Khi đổi thuộc tính data-theme="dark" trên html/body
+[data-theme="dark"] {
+  @each $name, $value in $dark-theme {
+    --#{$name}: #{$value};
+  }
+}

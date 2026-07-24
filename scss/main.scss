@@ -1,0 +1,8 @@
+// Thứ tự import cực kỳ quan trọng!
+@import 'variables';   // 1. Phải nạp biến trước
+@import 'mixin';
+@import 'root';        // 2. Nạp logic sinh biến CSS
+@import 'components';  // 3. Cuối cùng mới nạp style giao diện
+@import 'animate';
+
+
