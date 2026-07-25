@@ -66,13 +66,12 @@
     <!-- header -->
     <header>
         <div class="container">
-            <nav class="navbar-header">
+            <div class="navbar-header">
                 <div class="container-navbar">
                     <div class="navbar-brand">
                         <img src="img/logo.png" alt="logo">
                         <a href="#"><span class="logo-name">Ascent</span></a>
                     </div>
-
                     <nav class="navbar">
                         <ul class="nav">
                             <li class="nav__item nav__item--dropdown">
@@ -144,19 +143,69 @@
                                 <a href="#" class="nav__link"><span>Contact Us</span></a>
                             </li>
                         </ul>
-                    
+                    </nav>
                     <div class="navbar-btn">
                         <button class="btn-primary">Get A Quote</button>
-                        <button class="navbar-toggler" type="button">
-                            <span class="navbar-toggler-icon"></span>
-                        </button>
+                        <label for="show-nav" class="navbar-tog">
+                            <span class="navbar-icon"></span>
+                        </label>
                     </div>
-                    </nav>
-
                 </div>
-            </nav>
+            </div>
         </div>
     </header>
+    <div class="sidebar-overlay">
+        <input type="checkbox" hidden class="input-box" id="show-nav">
+        <div class="overlay"></div>
+        <div class="navbar-mobile">
+            <div class="logo-close">
+                <div class="navbar-brand">
+                    <img src="img/logo.png" alt="logo">
+                    <a href="#"><span class="logo-name">Ascent</span></a>
+                </div>
+                <label for="show-nav" class="nav-close">
+                    <span class="nav-close-btn"></span>
+                </label>
+            </div>
+            <ul class="nav-mobile">
+                <li class="nav-moblie__item">
+                    <a href="#" class="nav-moblie__link"><span>Home</span></a>
+                </li>
+                <li class="nav-moblie__item">
+                    <a href="#" class="nav-moblie__link"><span>About</span></a>
+                </li>
+                <li class="nav-moblie__item">
+                    <a href="#" class="nav-moblie__link"><span>Services</span></a>
+                </li>
+                <li class="nav-moblie__item">
+                    <a href="#" class="nav-moblie__link"><span>Blog</span></a>
+                </li>
+                <li class="nav-moblie__item">
+                    <a href="#" class="nav-moblie__link"><span>Page</span></a>
+                </li>
+                <li class="nav-moblie__item">
+                    <a href="#" class="nav-moblie__link"><span>Contact Us</span></a>
+                </li>
+            </ul>
+            <ul class="contact-info">
+                <p>Contact Info</p>
+                <li class="contact-list"><a href="" class="contact-link">(629) 555-0129</a></li>
+                <li class="contact-list"><a href="" class="contact-link">info@example.com</a></li>
+                <li class="contact-list">6391 Elgin St. Celina, 10299</li>
+            </ul>
+            <button class="btn-primary">Get A Quote</button>
+            <div class="info__boxs">
+                    <a href="#"><span class="info__box"></span></a>
+                    <a href="#"><span class="info__box"></span></a>
+                    <a href="#"><span class="info__box"></span></a>
+                    <a href="#"><span class="info__box"></span></a>
+                </div>
+
+        </div>
+
+    </div>
+
+
 
     <button class="btn-primary" id="theme-toggle">Đổi Theme</button>
     <div class="card">

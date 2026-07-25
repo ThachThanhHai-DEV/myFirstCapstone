@@ -75,6 +75,7 @@ body {
     font-weight: $fw-400;
     font-size: $fs-sub;
     line-height: $lh-body;
+
   }
 
   .section-title {
@@ -82,5 +83,6 @@ body {
     font-weight: $fw-700;
     font-size: $fs-title;
     line-height: $lh-title;
+    color: var(--text-title);
   }
 }
