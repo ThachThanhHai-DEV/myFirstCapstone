@@ -3,8 +3,8 @@
 
     .container-navbar {
         @include flex(space-between, center);
-
         .navbar {
+            width: 40%;
             display: none;
 
             @include breakpoint-up(xl) {
@@ -80,6 +80,7 @@
         }
 
         .navbar-btn {
+            width: 20%;
             @include flex(flex-end, center);
             gap: 20px;
 
@@ -265,6 +266,7 @@
 
 //LOGO
 .navbar-brand {
+    width: 40%;
     @include flex(flex-start, center);
     gap: 5px;
 

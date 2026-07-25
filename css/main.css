@@ -226,6 +226,7 @@ body {
   align-items: center;
 }
 .navbar-header .container-navbar .navbar {
+  width: 40%;
   display: none;
 }
 @media (min-width: 1280px) {
@@ -289,6 +290,7 @@ body {
   line-height: 28px;
 }
 .navbar-header .container-navbar .navbar-btn {
+  width: 20%;
   display: flex;
   justify-content: flex-end;
   align-items: center;
@@ -454,6 +456,7 @@ body {
 }
 
 .navbar-brand {
+  width: 40%;
   display: flex;
   justify-content: flex-start;
   align-items: center;
