@@ -16,10 +16,11 @@ $color-primary-light: rgb(104, 104, 104);
 $color-primary-dark: #9F978C;
 $color-title-light: #fff;
 $color-title-dark: #000;
+$color-primary-hover:#E79B00;
 //Break point
 $bp-sm: 640px;
 $bp-lg: 1024px;
-$bp-xl: 1440px;
+$bp-xl: 1280px;
 
 //--background color--
 $bg-light: #fff;
@@ -33,7 +34,7 @@ $radius-md : 6px;
 $light-theme: (
   'bg-app': $bg-light,
   'text-primary': $color-primary-light,
-  'text-title': $color-title-light,
+  'text-title': $color-title-dark,
   'color-border': $bg-border-light,
 );
 
@@ -41,6 +42,6 @@ $light-theme: (
 $dark-theme: (
   'bg-app': $bg-dark,
   'text-primary': $color-primary-dark,
-  'text-title': $color-title-dark,
+  'text-title': $color-title-light,
   'color-border': $bg-border-dark,
 );
