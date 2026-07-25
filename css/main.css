@@ -196,12 +196,13 @@ body {
   margin-right: 20px;
   color: #fff;
 }
-.info__head .info__content .info__boxs {
+
+.info__boxs {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-.info__head .info__content .info__boxs span.info__box {
+.info__boxs span.info__box {
   display: block;
   width: 25px;
   height: 25px;
@@ -210,7 +211,7 @@ body {
   margin-right: 15px;
   transition: all 0.2s ease-in;
 }
-.info__head .info__content .info__boxs span.info__box:hover {
+.info__boxs span.info__box:hover {
   background-color: #EEC359;
   cursor: pointer;
 }/*# sourceMappingURL=main.css.map */
